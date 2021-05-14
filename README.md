@@ -10,7 +10,7 @@ A Jupyter Notebook or Google Notebook, with Python 3 can be used to run the diff
 1. classification.ipynb: run this code to convert the nltk gutenberg dataset to a csv file with the necessary data (stored in gutenberg.csv)
 2. Gutenberg_expanded_processing.ipynb: run this code to scale the original gutenberg dataset (already done and stored in gutenberg_expanded.csv)
 3. Pretext.ipynb : run this code to perform the pretext task of replacing 1 sentence in the 5 sentences and determining which sentence in the excerpt is not by the same author (creates a new dataset and stores it in pretext.csv)
-4. LSTM Model.ipynb : run this code for the bulk of the project along with alternative models to compare against the main model. Note: for the Naive Bayes, Decision Tree Classifier, and KNN Classifier models, the preprocessing of the text is the same as used for the LSTM Model. Linear Regression does its own preprocessing by Vectorizing the excerpt. 
+4. LSTM Model.ipynb : run this code for the bulk of the project along with alternative models to compare against the main model. Note: for the Naive Bayes, Decision Tree Classifier, and KNN Classifier models, the preprocessing of the text is the same as used for the LSTM Model. Linear Regression does its own preprocessing by Vectorizing the excerpt. (LSTM Model original contains the lstm code in which the 20 excerpts are not taken into account).
 
 The pretext_output file stores the training model used for the pretext task. author_lstm_with_pretext_results stores the training model of the pretext task with the downstream task. author_lstm_results stores the training model for the base lstm model regarding authorship classification. 
 
